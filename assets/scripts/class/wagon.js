@@ -27,6 +27,8 @@ class Wagon {
     shouldQuarantine() {
         if (this.passengers.some(traveler => traveler.isHealthy === false)) {
             return true
+        } else {
+            return false
         }
     }
 

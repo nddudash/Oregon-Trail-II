@@ -10,7 +10,7 @@ class Traveler {
     generate() {
         let travelerDiv = document.createElement('div')
         travelerDiv.classList.add("game-Traveler")
-        document.querySelector(".game-Container").append(travelerDiv)
+        document.querySelector(".game-Wagon").append(travelerDiv)
     }
     
     hunt() {

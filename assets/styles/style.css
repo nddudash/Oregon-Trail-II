@@ -4,26 +4,34 @@
 
 .game-Container {
     margin: 15px auto;
+    padding: 10px;
+    display: flex;
     flex-direction: row;
     justify-items: center;
     align-items: center;
     flex-grow: 1;
     flex-basis: 800px;
-    height: 800px;
     max-width: 1680px;
     min-width: 540px;
     background-color: rgb(101, 192, 101);
 }
 
 .game-Wagon {
-    width: 250px;
-    height: 250px;
     margin: 10px auto;
     justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-basis: 250px;
+    max-width: 250px;
+    flex-grow: 1;
+    flex-wrap: wrap;
     background-color: rgb(110, 65, 14);
 }
 
 .game-Traveler {
+    display:block;
     width: 30px;
     height: 100px;
     margin: 5px auto;
