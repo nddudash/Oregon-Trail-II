@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.game-Container {
+    margin: 15px auto;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 800px;
+    height: 800px;
+    max-width: 1680px;
+    min-width: 540px;
+    background-color: rgb(101, 192, 101);
+}
+
+.game-Wagon {
+    width: 250px;
+    height: 250px;
+    margin: 10px auto;
+    justify-self: center;
+    background-color: rgb(110, 65, 14);
+}
+
+.game-Traveler {
+    width: 30px;
+    height: 100px;
+    margin: 5px auto;
+    background-color: black;
+}

@@ -2,8 +2,16 @@ class Wagon {
     constructor(capacity) {
         this.capacity = capacity
         this.passengers = []
+
+        this.generate()
     }
     
+    generate() {
+        const wagonDiv = document.createElement('div')
+        wagonDiv.classList.add("game-Wagon")
+        document.querySelector(".game-Container").append(wagonDiv)
+    }
+
     getAvailableSeatCount() {
         return (this.capacity - this.passengers.length)
     }
